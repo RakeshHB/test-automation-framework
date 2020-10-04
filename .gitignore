@@ -5,3 +5,5 @@ test-output
 .project
 debug.log
 screenshots
+.idea
+test-automation-framework.iml
