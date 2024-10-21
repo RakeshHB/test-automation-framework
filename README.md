@@ -1,8 +1,5 @@
 # test-automation-framework
-## Setup
-To run this project, install it locally using maven:
-
+## How to run tests
 ```
-$ cd ../test-automation-framework
-$ mvn clean install
+$ mvn clean test
 ```

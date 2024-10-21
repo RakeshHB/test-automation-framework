@@ -19,6 +19,8 @@ public class PageStore {
 	public PageStore() {
 		if (PlatformUtil.isWindows()) {
 			System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
+		} else if (PlatformUtil.isMac()) {
+			System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
 		}
 		webDriver = new ChromeDriver();
 		webDriver.manage().window().maximize();

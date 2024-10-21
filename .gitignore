@@ -7,3 +7,4 @@ debug.log
 screenshots
 .idea
 test-automation-framework.iml
+.DS_Store
