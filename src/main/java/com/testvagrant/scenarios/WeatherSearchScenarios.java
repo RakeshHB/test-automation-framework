@@ -48,7 +48,7 @@ public class WeatherSearchScenarios extends BaseScenario {
 			System.out.println("Marking this test as failed");
 			System.out.println("Value got/derived from UI: " + o1);
 			System.out.println("Value got from API: " + o2);
-			System.out.println("Difference between values: " + diff + " which is greather than allowed difference by "
+			System.out.println("Difference between values: " + diff + " which is greater than allowed difference by "
 					+ (diff - allowedDifference));
 			System.out.println("Allowed difference " + allowedDifference);
 		}
